@@ -8,26 +8,35 @@
 
 ## 출력 구조
 
-IR_HOSTNAME_YYYYMMDD_HHMMSS
+```text
+IR_<HOSTNAME>_<YYYYMMDD_HHMMSS>\
+│
 ├─ 00_date_time.txt
 ├─ 01_systeminfo.txt
 ├─ 02_boot_time.txt
+│
 ├─ 10_ipconfig.txt
 ├─ 11_sessions.txt
 ├─ 12_netstat.txt
 ├─ 13_loggedon_users.txt
+│
 ├─ 20_services.txt
+│
 ├─ 30_processes.txt
 ├─ 31_process_tree.txt
 ├─ 32_dlls.txt
 ├─ 33_handles.txt
+│
 ├─ 40_shares.txt
 ├─ 41_users.txt
 ├─ 42_localgroups.txt
 ├─ 43_admin_group.txt
+│
 ├─ 50_firewall.txt
+│
 ├─ 60_eventlog_system.txt
 └─ 61_eventlog_security.txt
+'''
 
 ---
 
