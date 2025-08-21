@@ -36,7 +36,7 @@ IR_<HOSTNAME>_<YYYYMMDD_HHMMSS>\
 │
 ├─ 60_eventlog_system.txt
 └─ 61_eventlog_security.txt
-'''
+'''text
 
 ---
 
